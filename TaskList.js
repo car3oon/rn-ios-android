@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { ListView, StyleSheet, TouchableHighlight, Text, View } from 'react-native'
-import TaskRow from './TaskRow'
+import TaskRow from './TaskRow/Component'
 
 export default class TaskList extends Component {
   constructor (props, context) {
