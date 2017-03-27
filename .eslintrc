@@ -1,0 +1,37 @@
+{
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "extends": [
+    "eslint:recommended", "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "quotes": [1, "single"],
+    "strict": [2, "never"],
+    "comma-dangle": ["error", "only-multiline"],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "react/jsx-no-bind": ["error"],
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2
+  },
+  "globals": {
+    "__DEV__": true,
+    "Promise": true,
+    "before": true,
+    "beforeEach": true,
+    "clearInterval": true,
+    "clearTimeout": true,
+    "describe": true,
+    "expect": true,
+    "global": true,
+    "it": true,
+    "jest": true,
+    "process": true,
+    "require": true,
+    "setImmediate": true,
+    "setInterval": true,
+    "setTimeout": true
+  }
+}
